@@ -1,0 +1,46 @@
+html,
+body {
+    background: #f2f2f2;
+    scroll-behavior: smooth;
+}
+
+.heading {
+    width: 100%;
+    cursor: default;
+}
+
+.login_div {
+    background: rgb(255, 255, 255);
+    float: none;
+    border-radius: 5px;
+    box-shadow: grey;
+    border-color: #ddd;
+    border-left: 3px;
+    padding: 10px;
+}
+
+.login_div button {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.login_div button:hover {
+    width: 100%;
+    color: blue;
+    border-radius: 30px;
+    background: white;
+}
+
+.logo {
+    width: 60%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.note {
+    width: 100%;
+    background: #64ff5e;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}

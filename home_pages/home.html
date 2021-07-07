@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="images/x-icon" href="../images/weeble.png" sizes="16x16">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./home.css">
+</head>
+
+<body onload="myFunction()" margin="0">
+    <!-- Loader -->
+    <div id="loader">
+        <br><br>
+        <div style="width: 80px; height: 80px;" class="spinner-grow text-primary"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="myDiv" style="display: none;">
+        <center>
+            <div class="learn_video1">
+                <h3 class="text-primary">Learn ABC</h3>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/KBPAI6qLW5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="text-muted">Resources <span onclick="download()" class="btn btn-warning">Download PDF</span></p>
+                <iframe class="pdf" src="https://freekidsbooks.org/wp-content/uploads/2017/01/Alphabet-Cards-Back-to-Back.pdf"></iframe>
+            </div>
+            <div class="quiz">
+                <h5 class="text-muted">After you complete videos and pdfs take this quiz here.</h5>
+                <button class="btn btn-primary" onclick="take_quiz1()">Take Quiz</button>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" src="./home.js"></script>
+</body>
+
+</html>

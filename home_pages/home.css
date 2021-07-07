@@ -1,0 +1,26 @@
+#myDiv {
+    display: none;
+    text-align: center;
+}
+
+#loader {
+    text-align: center;
+}
+
+.learn_viedo1 {
+    width: 60%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.pdf {
+    width: 80%;
+    height: 700px;
+}
+
+.quiz {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
